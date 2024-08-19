@@ -97,6 +97,7 @@ export function GstLateReturnCalculator() {
     form.setValue("taxLiabilityTotal.total", totalTaxLiabilityFC + totalTaxLiabilityRCM)
 
   }, [
+    form,
     taxLiabilityFC.igst, taxLiabilityFC.cgst, taxLiabilityFC.sgst, taxLiabilityFC.cess,
     taxLiabilityRCM.igst, taxLiabilityRCM.cgst, taxLiabilityRCM.sgst, taxLiabilityRCM.cess,
   ])
